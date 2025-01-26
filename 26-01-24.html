@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Understanding Div Elements</title>
+	<style>
+		/* Internal styling for the div elements */
+		.div-container {
+			width: 100%;
+			height: 200px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			background-color: #f0f0f0;
+			padding: 20px;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		.div1 {
+			width: 45%;
+			height: 150px;
+			background-color: #00698f;
+			color: #ffffff;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		.div2 {
+			width: 45%;
+			height: 150px;
+			background-color: #008000;
+			color: #ffffff;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		footer {
+			background-color: #f0f0f0;
+			padding: 10px;
+			border-top: 1px solid #ccc;
+			text-align: center;
+			clear: both;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Understanding Div Elements</h1>
+	
+	<p>The div element is a generic container element that can be used to group elements for styling or layout purposes.</p>
+	
+	<p>The div element has several attributes, including:</p>
+	
+	<ul>
+		<li><b>class</b>: specifies a class name for the element</li>
+		<li><b>id</b>: specifies a unique id for the element</li>
+		<li><b>style</b>: specifies inline styles for the element</li>
+		<li><b>title</b>: specifies a title for the element</li>
+	</ul>
+	
+	<div class="div-container">
+		<div class="div1">
+			<h2>Div 1</h2>
+			<p>This is the first div element.</p>
+		</div>
+		<div class="div2">
+			<h2>Div 2</h2>
+			<p>This is the second div element.</p>
+		</div>
+	</div>
+	
+	<p>As you can see, the two div elements are stacked side by side using the flexbox layout.</p>
+	
+	<footer>
+		&copy; 2025 AramsDemo. All rights reserved.
+	</footer>
+</body>
+</html>
